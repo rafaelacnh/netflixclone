@@ -1,9 +1,10 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from 'react'
 
-export default () => {
+export default ({title, items}) => {
     return (
         <div>
-            Lista do Filme
+            <h1>{title}</h1>
         </div>
     )
 }
