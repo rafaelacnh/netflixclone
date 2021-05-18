@@ -1,8 +1,8 @@
 import React from 'react';
 import './FeaturedMovie.css';
 
-export default () => {
+export default ({item}) => {
     return (
-        <div>Filmes em Destaque</div>
+       
     )
 }
